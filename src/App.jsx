@@ -3,6 +3,8 @@ import Counter from "./features/Counter";
 import Subscibe from "./features/Subscibe";
 import PricingCard from "./features/PricingCard";
 import ProductModal from "./features/ProductModal";
+import ImageGalary from "./features/ImageGalary";
+import LoginModal from "./features/LoginModal";
 
 function App() {
   return (
@@ -12,11 +14,11 @@ function App() {
       {/* <Subscibe /> */}
       {/* <PricingCard /> */}
 
-      <ProductModal />
+      {/* <ProductModal /> */}
+      {/* <ImageGalary /> */}
+      <LoginModal />
     </div>
   );
 }
 
 export default App;
-
-// counter app using redux toolkit
